@@ -34,7 +34,11 @@ footer, header, hgroup, menu, nav, section {
 		width: 35%;
 		float: right;
 		}
-		
+	
+	#widemain {
+		clear: both;
+	}
+	
 	#footer {
 	clear: both;
 	height: 66px;
