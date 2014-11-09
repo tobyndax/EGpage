@@ -108,14 +108,18 @@ header nav {
 		}
 /* Flip Cards */
 .flip3D{
-	display:block;
+	font-size: 14px;
+	color: #000000;
+	display:inline-block;
+	text-align:center;
 	float: left;
 	width: 200px;
 	height: 240px;
 	margin: 10px;
 	}
 .flip3D > .front {
-	display:block;
+	overflow:hidden;
+	padding-top:10px;
 	position: absolute;
 	transform: perspective( 600px ) rotateY( 0deg );
 	background: #4B96E6; 
@@ -127,7 +131,8 @@ header nav {
 }
 
 .flip3D > .back { /* in class flip3D all subsections with denominator back affected.  */
-	display:block;
+	overflow:hidden;
+	padding-top:10px;
 	position: absolute;
 	transform: perspective( 600px ) rotateY( 180deg );
 	background: #4BCCE6; 
