@@ -159,7 +159,7 @@ header nav {
   -webkit-transform: perspective( 600px ) rotateY( 0deg );
  }
 
- .scrollSection {
+ #scrollSection {
    background-color: red;
    border-radius: 7px;
    width: 200px;
