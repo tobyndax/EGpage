@@ -159,6 +159,15 @@ header nav {
   -webkit-transform: perspective( 600px ) rotateY( 0deg );
  }
 
+ .scrollSection {
+   background-color: red;
+   border-radius: 7px;
+   width: 200px;
+   height: 200px;
+   position: absolute;
+   margin: 50px 0px 0 px 0px;
+ }
+
 /* Media Queries */
 @media screen and (max-width: 480px) {
 
